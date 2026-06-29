@@ -815,11 +815,10 @@ div[id*="tilda"] {
   <div class="floating-orb orb-2"></div>
   <div class="floating-orb orb-3"></div>
   <!-- Замени ссылку в src на свой mp3-файл. В Tilda можно загрузить mp3 в «Файлы» и вставить ссылку сюда. -->
-  <audio id="bgMusic" loop>
-    <source src="https://www.dropbox.com/scl/fi/iirspw7c60qtzphki1od8/.mp3?rlkey=o3nbvkefh50eh2vmgijaws6iv&st=mb6om5hh&raw=1" />
-  </audio>
+  <audio id="bgMusic" loop preload="loop">
+  <source src="assets/tai-tai.mpeg" type="audio/mpeg" />
+</audio>
   <button class="music-btn" id="musicBtn" type="button" aria-label="Музыка">▶</button>
-
   <main class="page">
     <section class="hero">
       <div class="kazakh-pattern"></div>
